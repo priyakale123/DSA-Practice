@@ -1,3 +1,6 @@
+# Time Complexity: O(n) - ek loop, array chya pratyek element var ekda jato
+# Space Complexity: O(1) - फक्त 2 extra variables वापरले
+
 arr=[5,2,9,10,1]
 small=arr[0]
 largest=arr[0]
