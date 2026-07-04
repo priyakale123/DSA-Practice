@@ -1,0 +1,14 @@
+str="Nitin".lower()
+n= len(str)
+left=0
+right= n-1
+while left<=right:
+    if str[left] != str[right]:
+      print("not palindrome")
+      break
+    left += 1
+    right -= 1
+else:
+   print("string is palindrome")
+   
+       
